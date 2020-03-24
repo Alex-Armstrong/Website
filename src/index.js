@@ -12,6 +12,10 @@ const pages = {
   index: {
     url: "/",
     header: "Welcome to this sick ass site!"
+  },
+  sam: {
+    url: "/sam",
+    header: "Sma was here",
   }
 };
 
@@ -31,7 +35,7 @@ const getPageInfo = path => {
 const path = window.location.pathname;
 const page = getPageInfo(path);
 
-document.getElementById("app").innerHTML = ` 
+document.getElementById("app").innerHTML = `
 <h1>${page.header}</h1>
 <div>
   We use Parcel to bundle this sandbox, you can find more info about Parcel
