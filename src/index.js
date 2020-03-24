@@ -16,6 +16,10 @@ const pages = {
   sam: {
     url: "/sam",
     header: "Sma was here",
+  },
+  boner: {
+    url: "/boner",
+    header: "Check out my boner bro",
   }
 };
 
