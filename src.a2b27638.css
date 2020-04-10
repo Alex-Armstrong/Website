@@ -1,0 +1,20 @@
+
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  background: no-repeat url('/SF_Street_RAA1.0e37589c.jpeg') center center fixed;
+}
+
+/*# sourceMappingURL=/src.a2b27638.css.map */
